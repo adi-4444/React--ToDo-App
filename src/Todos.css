@@ -4,10 +4,7 @@
    background-color: rgb(226, 225, 225);
    border-radius: 15px;
    height: 65vh;
-<<<<<<< HEAD
-=======
    overflow: auto;
->>>>>>> 4284c4d (React Todo App)
 }
 
 .atodo {
@@ -17,13 +14,6 @@
    border-radius: 10px;
    display: flex;
    align-items: center;
-<<<<<<< HEAD
-   gap: 50%;
-}
-.todo {
-   margin-left: 15px;
-}
-=======
    justify-content: space-between;
    margin-bottom:10px;
 }
@@ -47,16 +37,12 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 } 
->>>>>>> 4284c4d (React Todo App)
 .actions {
    display: flex;
    gap: 10px;
    color: grey;
    cursor: pointer;
-<<<<<<< HEAD
-=======
    margin-right: 10px;
->>>>>>> 4284c4d (React Todo App)
 } 
 .edit :hover {
    color: rgb(46, 46, 255);
