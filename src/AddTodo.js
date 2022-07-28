@@ -1,23 +1,12 @@
 import "./AddTodo.css"
-<<<<<<< HEAD
 import { useState } from "react"
-
 import React from 'react'
-
-const AddTodo = () => {
-  const [input,setInput] = useState("")
-  const [todo,setTodo] = useState([])
-
-=======
-import { useState, useContext } from "react"
-import { Context } from "./App"
-import React from 'react'
+import {Context} from "./App"
 
 const AddTodo = () => {
 
   const {input, setInput, todo, setTodo} = useContext(Context);
   
->>>>>>> 4284c4d (React Todo App)
   const submiHandler = () => {
     if(input !== "") {
       setTodo([...todo,input])
@@ -35,13 +24,13 @@ const AddTodo = () => {
          </div>
 
          <div className="input-addbtn">
-<<<<<<< HEAD
+
             <button onClick={submiHandler} className="addbtn">Add</button>
-=======
+
             <button 
               onClick={submiHandler} className="addbtn">Add
             </button>
->>>>>>> 4284c4d (React Todo App)
+
          </div>
 
       </div>
