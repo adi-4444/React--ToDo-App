@@ -12,6 +12,12 @@ const Todos = () => {
     setTodo(temp);
   };
 
+//   const handleDelete = (id) => {
+//     const newArray = text.filter((currEle) => {
+//         return currEle.id !== id;
+//     });
+//     setTodo(newArray);
+// };
   return (
     <div>
       <div className="todolist">
