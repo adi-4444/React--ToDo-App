@@ -1,6 +1,5 @@
 import "./AddTodo.css";
-import { useState } from "react";
-import React from "react";
+import React, { useContext } from "react";
 import { Context } from "./App";
 
 const AddTodo = () => {
@@ -27,10 +26,6 @@ const AddTodo = () => {
         </div>
 
         <div className="input-addbtn">
-          <button onClick={submiHandler} className="addbtn">
-            Add
-          </button>
-
           <button onClick={submiHandler} className="addbtn">
             Add
           </button>

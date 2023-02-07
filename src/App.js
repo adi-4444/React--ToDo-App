@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useState, createContext } from "react";
 import AddTodo from "./AddTodo";
 import "./App.css";

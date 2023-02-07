@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-// import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import { Context } from "./App";
+import './Todos.css'
 
 const Todos = () => {
   const { todo, setTodo } = useContext(Context);
@@ -12,12 +12,12 @@ const Todos = () => {
     setTodo(temp);
   };
 
-//   const handleDelete = (id) => {
-//     const newArray = text.filter((currEle) => {
-//         return currEle.id !== id;
-//     });
-//     setTodo(newArray);
-// };
+  //   const handleDelete = (id) => {
+  //     const newArray = text.filter((currEle) => {
+  //         return currEle.id !== id;
+  //     });
+  //     setTodo(newArray);
+  // };
   return (
     <div>
       <div className="todolist">
@@ -28,9 +28,6 @@ const Todos = () => {
                 {todos}
               </h3>
               <div className="actions">
-                {/* <div className="edit">
-                  <FaEdit />
-                </div> */}
                 <div onClick={() => handleDelete(index)} className="delete">
                   <MdDelete />
                 </div>
